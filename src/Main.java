@@ -42,10 +42,10 @@ public class Main {
 
     public static char parseGender(char gender) throws ParseException {
         switch (gender) {
-            case 'м':
-                return 'м';
-            case 'ж':
-                return 'ж';
+            case 'm':
+                return 'm';
+            case 'f':
+                return 'f';
             default:
                 throw new ParseException("Неверный пол", 0);
         }
