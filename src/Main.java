@@ -66,7 +66,7 @@ public class Main {
 
     public static User parseUserInput() throws ParseException, NumberFormatException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите ФИО, дату рождения (dd/MM/yyyy), номер телефона и пол(м/ж) через пробел: ");
+        System.out.println("Введите ФИО, дату рождения (dd/MM/yyyy), номер телефона и пол(f/m) через пробел: ");
         String[] input = scanner.nextLine().split(" ");
         char gender;
         Long phoneNumber;
